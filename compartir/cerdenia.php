@@ -1,2 +1,2 @@
-<?php $a = 5 = 5; 
-?>
+<?php $a = "hola a";
+echo $a;
