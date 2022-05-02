@@ -1,0 +1,1 @@
+<?php $a="hello word!"; ?>
