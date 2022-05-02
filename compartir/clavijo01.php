@@ -1,2 +1,2 @@
-<?php $mn = "Hola a :";
-echo $mn;
+<?php $a = "hola a";
+echo $a;

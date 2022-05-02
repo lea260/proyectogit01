@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Hola mundo" 
+echo "Hola Mundo!" 
 # echo is similar to print statement.
 git config --global user.name '' 
 git config --global user.email 'lucas15redes@gmail.com'
