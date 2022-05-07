@@ -1,1 +1,1 @@
-<?php $a=5=5; ?>
+<?php $a = "hello word!";
