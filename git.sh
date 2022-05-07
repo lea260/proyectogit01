@@ -1,11 +1,11 @@
 #!/bin/bash
 echo "Hola Mundo!" 
 # echo is similar to print statement.
-git config --global user.name '' 
-git config --global user.email 'lucas15redes@gmail.com'
+git config --global user.name 'Matias Cerdenia' 
+git config --global user.email 'maticerde@gmail.com'
 git config --global color.ui true
 git config --global pull.rebase true
-git config --global credential.username "66666"
+git config --global credential.username "Maticerde"
 git branch --set-upstream-to=origin/master master
 
 git config --global alias.lodg 'log --oneline --decorate --graph'
