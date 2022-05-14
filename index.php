@@ -9,7 +9,9 @@
 </head>
 
 <body>
-  <?php echo "Primer programa" ; ?>
+  <h1>Pagina de inicio</h1>
+  <li><a href="pagina1.php?parametro01=hola&parametro02=hola">Pagina1</a></li>
+  <li><a href="pagina2.php">Pagina2</a></li>
 </body>
 
 </html>
