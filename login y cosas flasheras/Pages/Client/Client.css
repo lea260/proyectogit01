@@ -1,0 +1,20 @@
+#Cajas1 {
+  display: grid;
+  width: 95vw;
+  height: 80vw;
+  background: rgb(10, 201, 226);
+  justify-content: center;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  padding: 20px;
+}
+#Cajas1 img {
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 8vw !important;
+}
+#Cajas2 {
+  width: 75vw;
+  height: 10vw;
+  background: rgb(106, 0, 255);
+}
