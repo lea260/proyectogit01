@@ -9,10 +9,8 @@
 </head>
 
 <body>
-  <ul>
-    <li><a href="./pagina01.php?Nombre=Piter&Apellido=Parker">HELLO</a></li>
-    <li><a href="./pagina02.php?Nombre=Toni&Apellido=Stark">BYE BYE</a></li>
-  </ul>
+  <h1>BYE BYE SR.
+  </h1>
 
 </body>
 
