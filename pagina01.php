@@ -9,11 +9,7 @@
 </head>
 
 <body>
-  <h1>pagina de inicio</h1>
-  <ul>
-    <li><a href="pagina01.php?param01=hola&param02=hola">pagina 1</a></li>
-    <li><a href="pagina02.php">pagina 2</a></li>
-  </ul>
+  <h1>pagina 01</h1>
 </body>
 
 </html>
