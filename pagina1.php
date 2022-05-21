@@ -9,6 +9,12 @@
 
 <body>
   <h1> pagina 01</h1>
+  <?php var_dump($_GET);
+$persona  = $_GET['nombre'];
+$sinonimo = $_GET['apellido'];?>
+  <p> este es el pagina 01: <?=$persona;?></p>
+  <p> este es el pagina 02: <?=$sinonimo;?></p>
+  ?>
 </body>
 
 </html>
