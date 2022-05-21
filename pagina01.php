@@ -10,6 +10,7 @@
 
 <body>
   <h1>pagina 01</h1>
+  <?php var_dump($_GET);?>
 
 </body>
 
