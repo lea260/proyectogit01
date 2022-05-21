@@ -9,10 +9,19 @@
 
 <body>
   <h3>pagina 3</h3>
-  <?php var_dump($_GET);
-$años  = $_POST['edad'];
-$person = $_POST['nombre'];?>
-  <h1> bhola <?=$person;?> y tiene <?=$años;?> </h1>
+  <?php var_dump($_POST);
+$anios  = $_POST['edad'];
+$person = $_POST['nombre'];
+$apes   = $_POST['apellido'];
+if (!isset($_POST['apellido'])) {
+    echo "no definiste el apellido en el forms";
+}
+;?>
+  <h1> bhola <?=$person;?> y tiene
+    <?=$anios;?> y
+    tiene el apellido
+    <?=$apellido;?>
+  </h1>
 
 
 </body>
