@@ -10,16 +10,16 @@
 
 <body>
 
-  <h1>Pagina 01</h1>
+  <h1>--Pagina 01--</h1>
 
   <?php var_dump($_GET);
 $param01 = $_POST['nombre'];
 $param02 = $_POST['edad'];?>
-  <p> este es el parametro 01: <?=$param01;?></p>
-  <p> este es el parametro 02: <?=$param02;?></p>
+  <p> Este es el parametro 01: <?=$param01;?></p>
+  <p> Este es el parametro 02: <?=$param02;?></p>
 
   <?php if (!isset($_POST['apellido'])) {
-    echo "apellido no definido en el formularo";
+    echo "(Apellido no definido en el formulario)";
 }?>
 
 
