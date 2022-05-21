@@ -13,10 +13,14 @@
   <h1>pagina 01</h1>
 
   <?php var_dump($_GET);
-$param01 = $_GET['param01'];
-$param02 = $_GET['param02'];?>
+$param01 = $_POST['nombre'];
+$param02 = $_POST['edad'];?>
   <p> este es el parametro 01: <?=$param01;?></p>
   <p> este es el parametro 02: <?=$param02;?></p>
+
+  <?php if (!isset($_POST['apellido'])) {
+    echo "apellido no definido en el formularo";
+}?>
 
 
 </body>
