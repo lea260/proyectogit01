@@ -12,7 +12,15 @@
   <h1>Persona</h1>
   <?php var_dump($_POST);
 $edad   = $_POST['edad'];
-$nombre = $_POST['nombre'];?>
+$nombre = $_POST['nombre'];
+?>
   <p>El Nombre es: <?=$nombre;?></p>
   <p>La Edad es: <?=$edad;?></p>
-</body </html>
+  <?php
+if (!isset($_POST['apellido'])) {
+    echo "Pone una apellido pedaso de inútil";
+}?>
+
+</body>
+
+</html>
