@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <h1>pagina 01</h1>
+  <h1>pagina 02</h1>
   <?php var_dump($_GET);
 $param01 = $_GET['param01'];
 $param02 = $_GET['param02'];?>
