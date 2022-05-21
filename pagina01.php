@@ -9,11 +9,12 @@
 </head>
 
 <body>
-  <h1>pagina de inicio</h1>
-  <ul>
-    <li><a href="pagina01.php?param01=hola&param02=mundo">pagina 1</a></li>
-    <li><a href="pagina02.php">pagina 2</a></li>
-  </ul>
+  <h1>Pagina piola</h1>
+  <?php var_dump($_GET);
+$param01 = $_GET["param01"];
+$param02 = $_GET["param02"];?>
+  <p> este es el parametro 01</p>
+  <p> este es el parametro 02</p>
 </body>
 
 </html>
