@@ -10,6 +10,10 @@
 <?php $name=$_POST["nombre"];
       $age=$_POST["edad"] ?>
 <h1>Bienbenido <?=$name; ?> de <?=$age ; ?> Años </h1>
+<h2><?php if (!isset($_POST['apellido'])) {
+    echo "no se definio apellido en el formulario ";
+}
+;?></h2>
 
 <body>
 
