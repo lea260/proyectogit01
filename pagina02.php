@@ -11,9 +11,9 @@
 <body>
   <h1>Crear Persona</h1>
   <form action="persona.php" method="post">
-    <label for="">edad</label>
+    <label for="idnombre">edad</label>
     <input type="text" name="edad">
-    <label for="">nombre</label>
+    <label for="idedad">nombre</label>
     <input type="text" name="nombre">
     <input type="submit" value="enviar">
   </form>
