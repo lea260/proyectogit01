@@ -10,7 +10,7 @@
 
 <body>
   <h1>Crear Persona</h1>
-  <form action="persona.php" method="post">
+  <form action="persona.php" method="get">
     <label for="">edad</label>
     <input type="text" name="edad">
     <label for="">nombre</label>
