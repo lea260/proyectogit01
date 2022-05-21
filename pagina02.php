@@ -9,8 +9,7 @@
 </head>
 
 <body>
-  <h1>BYE BYE SR.
-  </h1>
+
 
 </body>
 

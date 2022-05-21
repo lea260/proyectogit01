@@ -9,7 +9,11 @@
 </head>
 
 <body>
-  <h1>Bienvenido SR. </h1>
+  <?php 
+  $name=$_GET["Nombre"];
+  $lastname=$_GET["Apellido"]
+  ; ?>
+  <h1>Bienvenido SR. <?=$name ; ?> <?=$lastname; ?> </h1>
 
 </body>
 

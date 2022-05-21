@@ -10,8 +10,8 @@
 
 <body>
   <ul>
-    <li><a href="./pagina01.php?Nombre=Piter&Apellido=Parker">HELLO</a></li>
-    <li><a href="./pagina02.php?Nombre=Toni&Apellido=Stark">BYE BYE</a></li>
+    <li><a href="./pagina01.php?Nombre=Piter&Apellido=Parker">Pagina 01</a></li>
+    <li><a href="./pagina02.php?">Pagina 02</a></li>
   </ul>
 
 </body>
