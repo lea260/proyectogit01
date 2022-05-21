@@ -9,7 +9,15 @@
 </head>
 
 <body>
+  <h1>Crear Persona</h1>
+  <form action="./pagina03.php" method="post">
+    <label for="">nombre</label>
+    <input type="text" name="nombre">
+    <label for="">edad</label>
+    <input type="number" name="edad">
 
+    <input type="submit" value="enviar">
+  </form>
 
 </body>
 
