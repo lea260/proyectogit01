@@ -13,7 +13,11 @@
   <?php
 
 var_dump($_GET);
+$param01 = $_GET['param01'];
+$param02 = $_GET['param02'];
 ?>
+  <p> este es el parametro 01: <?=$param01;?> </p>
+  <p> este es el parametro 02: <?=$param02;?> </p>
 </body>
 
 </html>
