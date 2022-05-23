@@ -13,11 +13,22 @@
   <h1>--Pagina 01--</h1>
 
   <?php var_dump($_GET);
-$param01 = $_POST['nombre'];
-$param02 = $_POST['edad'];?>
+$param01 = $_GET['param01'];
+$param02 = $_GET['param02'];?>
   <p> Este es el parametro 01: <?=$param01;?></p>
   <p> Este es el paramsetro 02: <?=$param02;?></p>
   }?>
+  <input type="radio" name=tel[];>
+  <input type="radio" name=tel[];>
+  <input type="checkbox" name="" id="">
+  <select name="" id="">
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+  </select>
+
 
 
 </body>

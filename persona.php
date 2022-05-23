@@ -11,7 +11,7 @@
 <body>
 
   <h1>--Pagina 01--</h1>
-  <?php var_dump($_GET);
+  <?php var_dump($_POST);
 $param01 = $_POST['nombre'];
 $param02 = $_POST['edad'];?>
   <p> Este es el parametro 01: <?=$param01;?></p>
