@@ -19,6 +19,7 @@ $parametro02 = $_POST['edad'];?>
     echo "No defini en apellido en el formulario ";
 }
 ;?>
+
 </body>
 
 </html>
