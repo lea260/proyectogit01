@@ -12,9 +12,9 @@
   <h1>Crear Persona</h1>
   <form action="persona.php" method="post">
     <label for="idnombre">nombre</label>
-    <input type="text" name="nombre" id="idnombre" value="Pedrito">
+    <input type="text" name="nombre" id="idnombre">
     <label for="">edad</label>
-    <input type="text" name="edad" value="36">
+    <input type="text" name="edad">
     <input type="submit" value="enviar">
   </form>
 
