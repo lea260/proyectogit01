@@ -9,12 +9,15 @@
 </head>
 
 <body>
-  <h1>pagina 02</h1>
-  <?php var_dump($_GET);
-$param01 = $_GET['param01'];
-$param02 = $_GET['param02'];?>
-  <p> este es el parametro 01: <?=$param01;?> </p>
-  <p> este es el parametro 02: <?=$param02;?> </p>
+  <h1>Crear Persona</h1>
+  <form action="persona.php" method="post">
+    <label for="idnombre">nombre</label>
+    <input type="text" name="nombre" id="idnombre" value="Pedrito">
+    <label for="">edad</label>
+    <input type="text" name="edad" value="36">
+    <input type="submit" value="enviar">
+  </form>
+
 </body>
 
 </html>
