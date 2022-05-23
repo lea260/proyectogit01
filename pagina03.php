@@ -8,12 +8,18 @@
   <title>Document</title>
 </head>
 <?php $name=$_POST["nombre"];
-      $age=$_POST["edad"] ?>
+      $age=$_POST["edad"];
+      $tels=$_POST["tel"] ?>
 <h1>Bienbenido <?=$name; ?> de <?=$age ; ?> Años </h1>
 <h2><?php if (!isset($_POST['apellido'])) {
     echo "no se definio apellido en el formulario ";
 }
 ;?></h2>
+<h2><?php foreach ($tels as &$tel) {
+    echo $tel;
+}
+; ?></h2>
+
 
 <body>
 

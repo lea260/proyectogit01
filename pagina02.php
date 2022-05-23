@@ -15,7 +15,20 @@
     <input type="text" name="nombre">
     <label for="">edad</label>
     <input type="number" name="edad">
-
+    <label for="">tel</label>
+    <input type="number" name="tel[]" id="">
+    <label for="">tel</label>
+    <input type="number" name="tel[]" id="">
+    <label for="">tel</label>
+    <input type="number" name="tel[]" id="">
+    <label for="">tel</label>
+    <input type="number" name="tel[]" id="">
+    <label for="">tel</label>
+    <input type="number" name="tel[]" id="">
+    <label for="">tel</label>
+    <input type="number" name="tel[]" id="">
+    <label for="">tel</label>
+    <input type="number" name="tel[]" id="">
     <input type="submit" value="enviar">
   </form>
 
