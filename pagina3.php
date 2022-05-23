@@ -13,6 +13,7 @@
 $anios  = $_POST['edad'];
 $person = $_POST['nombre'];
 $apes   = $_POST['apellido'];
+$teles  = $_POST['tel[];'];
 if (!isset($_POST['apellido'])) {
     echo "no definiste el apellido en el forms";
 }
@@ -20,7 +21,8 @@ if (!isset($_POST['apellido'])) {
   <h1> bhola <?=$person;?> y tiene
     <?=$anios;?> y
     tiene el apellido
-    <?=$apellido;?>
+    <?=$apellido;?> ademas
+    de su telefono que es <?=$tel[];?>
   </h1>
 
 

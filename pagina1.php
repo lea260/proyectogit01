@@ -11,7 +11,9 @@
   <h1> pagina 01</h1>
   <?php var_dump($_GET);
 $persona  = $_GET['nombre'];
-$sinonimo = $_GET['apellido'];?>
+$sinonimo = $_GET['apellido'];
+$teles    = $_GET['tel[];'];?>
+
   <p> este es el pagina 01: <?=$persona;?></p>
   <p> este es el pagina 02: <?=$sinonimo;?></p>
   ?>
