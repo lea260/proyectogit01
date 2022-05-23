@@ -16,7 +16,7 @@
 }
 ;?></h2>
 <h2><?php foreach ($tels as &$tel) {
-    echo $tel;
+    echo $tel . "<br>" ;
 }
 ; ?></h2>
 
