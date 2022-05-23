@@ -16,11 +16,8 @@
 $param01 = $_POST['nombre'];
 $param02 = $_POST['edad'];?>
   <p> Este es el parametro 01: <?=$param01;?></p>
-  <p> Este es el parametro 02: <?=$param02;?></p>
-
-  <?php if (!isset($_POST['apellido'])) {
-    echo "(Apellido no definido en el formulario)";
-}?>
+  <p> Este es el paramsetro 02: <?=$param02;?></p>
+  }?>
 
 
 </body>
