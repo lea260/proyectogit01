@@ -12,7 +12,8 @@
 <body>
   <h1> pagina de inicio</h1>
   <ul>
-    <li><a href="pagina1.php?nombre=Thomas&apellido=Villagran">pagina 1</a></li>
+    <li><a href="pagina1.php?nombre=Thomas&apellido=Villagran&edad=20&tels=telefonoUY&categorias=Estudiante">pagina 1</a>
+    </li>
     <li><a href="pagina2.php?">pagina 2</a></li>
   </ul>
 
