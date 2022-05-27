@@ -12,11 +12,17 @@
   <?php var_dump($_GET);
 $persona  = $_GET['nombre'];
 $sinonimo = $_GET['apellido'];
-$teles    = $_GET['tel[];'];?>
+$anios    = $_GET['edad'];
+$telsiss  = $_GET['tels'];
+?>
 
-  <p> este es el pagina 01: <?=$persona;?></p>
-  <p> este es el pagina 02: <?=$sinonimo;?></p>
+  <p> este sujeto es: <?=$persona;?></p>
+  <p> Y su apellido es: <?=$sinonimo;?></p>
+  <p> Tiene la siguiente edad: <?=$anios;?> </p>
+  <p> y su telefono es <?=$telsiss;?> </p>
   ?>
+
+
 </body>
 
 </html>
