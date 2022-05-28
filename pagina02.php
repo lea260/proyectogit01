@@ -19,7 +19,7 @@
     <select name="pais" id="">
       <option value="1">uruguay</option>
       <option value="2">brasil</option>
-      <option value="3">argentina</option>
+      <option value="3" selected>argentina</option>
       <option value="4">Bolivia</option>
     </select>
     <br>aminales favoritos
