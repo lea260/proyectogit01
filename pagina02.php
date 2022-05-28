@@ -20,25 +20,25 @@
     <br>
     <br>
     <input type="" name="" id="">
-    Masculino: <input type="checkbox" name="tel[]" ;>
-    Femenino: <input type="checkbox" name="tel[]" ;>
-    No binario: <input type="checkbox" name="tel[]" ;>
+    Masculino: <input type="checkbox" name="tel[]" value="Mas">
+    Femenino: <input type="checkbox" name="tel[]" value="Fem">
+    No binario: <input type="checkbox" name="tel[]" value="Mas">
     <br>
     <br>
-    <label for="">Uruguay: </label>
-    <input type="radio" name="pais" id="1">
+
+    <input type="radio" name="pais" value="1"><label for="">Uruguay: </label>
     <label for="">España: </label>
-    <input type="radio" name="pais" id="2">
+    <input type="radio" name="pais" value="2">
     <label for="">Italia: </label>
-    <input type="radio" name="pais" id="3">
+    <input type="radio" name="pais" value="3">
     <label for="">Francia: </label>
-    <input type="radio" name="pais" id="4">
+    <input type="radio" name="pais" value="4">
     <label for="">Inglaterra: </label>
-    <input type="radio" name="pais" id="5">
+    <input type="radio" name="pais" value="5">
     <select name="genero" id="nums">
-      <option value="1" value="1">mas</option>
-      <option value="2" value="2">femeni</option>
-      <option value="3" value="3">3</option>
+      <option value="mas" value="1">mas</option>
+      <option value="fem" value="2">femeni</option>
+      <option value="nob" value="3">No binario</option>
     </select>
     < </form>
 </body>
