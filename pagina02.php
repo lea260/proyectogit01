@@ -26,8 +26,8 @@
     <input type="checkbox" name="animales[]" id="" value="perro">perro
     <input type="checkbox" name="animales[]" value="gato" id="">gato
     <br>seleccione estado civil
-    <input type="checkbox" name="estado" id="" value="solt">soltero
-    <input type="checkbox" name="estado" id="" value="casado">soltero
+    <input type="radio" name="estado" id="" value="solt">soltero
+    <input type="radio" name="estado" id="" value="casado">soltero
     <input type="submit" value="enviar">
   </form>
 
