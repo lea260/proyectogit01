@@ -11,11 +11,19 @@
 <body>
 
   <h1>--Pagina 01--</h1>
+
   <?php var_dump($_POST);
-$param01 = $_POST['nombre'];
-$param02 = $_POST['edad'];?>
-  <p> Este es el parametro 01: <?=$param01;?></p>
-  <p> Este es el parametro 02: <?=$param02;?></p>
+$nombre = $_POST['nombre'];
+$edad   = $_POST['edad'];
+$sexo   = $_POST['sexo'];
+$pais   = $_POST['pais'];
+$num    = $_POST['num'];?>
+  <p> Este es el parametro 01: <?=$nombre;?></p>
+  <p> Este es el parametro 02: <?=$edad;?></p>
+  <p> Sexo: <?=$sexo;?></p>
+  <p> Este es su pais: <?=$pais;?></p>
+  <p> Este es su numero: <?=$num;?></p>
+
   <?php if (!isset($_POST['apellido'])) {
     echo "(Apellido no definido en el formulario)";
 }?>
