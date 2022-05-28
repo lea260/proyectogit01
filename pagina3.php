@@ -20,6 +20,8 @@ $parametro02 = $_POST['edad'];?>
 }
 ;?>
 
+
+
 </body>
 
 </html>
