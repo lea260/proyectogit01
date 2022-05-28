@@ -12,11 +12,25 @@
   <h1>Crear Persona</h1>
   <form action="persona.php" method="post">
     <label for="idnombre">nombre</label>
-    <input type="text" name="nombre" id="idnombre" value="Pedrito">
+    <input type="text" name="nombre" id="idnombre">
     <label for="">edad</label>
     <input type="text" name="edad" value="36">
+    <br>seleccione un pais
+    <select name="pais" id="">
+      <option value="1">uruguay</option>
+      <option value="2">brasil</option>
+      <option value="3" selected>argentina</option>
+      <option value="4">Bolivia</option>
+    </select>
+    <br>aminales favoritos
+    <input type="checkbox" name="animales[]" id="" value="perro">perro
+    <input type="checkbox" name="animales[]" value="gato" id="">gato
+    <br>seleccione estado civil
+    <input type="radio" name="estado" id="" value="solt">soltero
+    <input type="radio" name="estado" id="" value="casado">soltero
     <input type="submit" value="enviar">
   </form>
+
 </body>
 
 </html>
