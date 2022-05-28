@@ -10,7 +10,8 @@
 
 <body>
   <h1>pagina 01</h1>
-  <?php var_dump($_POST);
+  <?php
+
 $param01 = $_POST['nombre'];
 $param02 = $_POST['edad'];?>
   <p>este es el parametro 01: <?=$param01;?></p>

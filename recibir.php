@@ -9,11 +9,12 @@
 </head>
 
 <body>
-  <h1>pagina de inicio</h1>
-  <ul>
-    <li><a href="peticionget.php?param01=hola&param02=mundo">pagina 1</a></li>
-    <li><a href="perosna02.php">pagina 2</a></li>
-  </ul>
+  <h1>pagina 01</h1>
+  <?php
+
+$param01 = $_POST['nombre'];
+$param02 = $_POST['edad'];?>
+
 </body>
 
 </html>
