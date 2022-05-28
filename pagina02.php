@@ -16,6 +16,21 @@
     <label for="">edad</label>
     <input type="text" name="edad" value="36">
     <input type="submit" value="enviar">
+    <?php $listaPaises = ["Uruguay", "Argentina", "Brasil"];
+$pais                  = "Uruguay";?>
+    <select name="" id="">
+      <?php for ($i = 0; $i < count($listaPaises); $i++) {
+    if ($listaPaises[$i] == $pais) {
+        ?><option value="" selected><?=$pais;?></option>
+      <?php } else {
+        ?><option value=""><?=$listaPaises[$i];?></option>
+      <?php }}
+;?>
+
+
+
+
+    </select>
   </form>
 
 </body>
