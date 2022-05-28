@@ -11,10 +11,14 @@
 <body>
   <h1>Pagina piola</h1>
   <?php var_dump($_GET);
-$param01 = $_GET["param01"];
-$param02 = $_GET["param02"];?>
-  <p> este es el parametro 01</p>
-  <p> este es el parametro 02</p>
+$param01 = $_GET["edad"];
+$param02 = $_GET["nombre"];
+$param03 = $_GET["sexo"];
+$param04 = $_GET["pais"];?>
+  <p> La edad es:</p>
+  <p> El nombre es:</p>
+  <p> El sexo es:</p>
+  <p> Es de:</p>
 </body>
 
 </html>

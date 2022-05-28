@@ -11,11 +11,15 @@
 <body>
   <h1>Pagina piola</h1>
   <?php var_dump($_POST);
-$param01 = $_POST["nombre"];
-$param02 = $_POST["edad"];?>
-  <p> este es el parametro 01</p>
-  <p> este es el parametro 02</p>
-  <?php if (!iseet($_POST["apellido"])) {
+$param01 = $_POST["edad"];
+$param02 = $_POST["nombre"];
+$param03 = $_POST["sexo"];
+$param04 = $_POST["pais"];?>
+  <p> La edad es:</p>
+  <p> El nombre es:</p>
+  <p> El sexo es:</p>
+  <p> Es de:</p>
+  <?php if (!isset($_POST["apellido"])) {
 }
 ?>
 </body>
