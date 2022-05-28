@@ -10,17 +10,18 @@
 <body>
   <h1> pagina 01</h1>
   <?php var_dump($_GET);
-$persona  = $_GET['nombre'];
-$sinonimo = $_GET['apellido'];
-$anios    = $_GET['edad'];
-$telsiss  = $_GET['tels'];
-?>
+$persona   = $_GET['nombre'];
+$sinonimo  = $_GET['apellido'];
+$anios     = $_GET['edad'];
+$categoris = $_GET['categoria'];
+$paisotes  = $_GET['paises'];?>
 
   <p> este sujeto es: <?=$persona;?></p>
   <p> Y su apellido es: <?=$sinonimo;?></p>
   <p> Tiene la siguiente edad: <?=$anios;?> </p>
-  <p> y su telefono es <?=$telsiss;?> </p>
-  ?>
+  <p> es un <?=$categoris;?> </p>
+  <p> y es del pais <?=$paisotes;?> </p>
+
 
 
 </body>
