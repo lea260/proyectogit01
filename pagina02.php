@@ -16,31 +16,31 @@
     <label for="idedad">Nombre:</label>
     <input type="text" name="nombre">
     <input type="submit" value="enviar">
-  </form><br> sexo:
-  <br>
-  <br>
-  Masculino: <input type="radio" name=tel[M];>
-  Femenino: <input type="radio" name=tel[F];>
-  No binario: <input type="radio" name=tel[O];>
-  <br>
-  <br>
-  <label for="">Uruguay: </label>
-  <input type="checkbox" name="1" id="1">
-  <label for="">España: </label>
-  <input type="checkbox" name="2" id="2">
-  <label for="">Italia: </label>
-  <input type="checkbox" name="3" id="3">
-  <label for="">Francia: </label>
-  <input type="checkbox" name="4" id="4">
-  <label for="">Inglaterra: </label>
-  <input type="checkbox" name="5" id="5">
-  <select name="nm" id="nums">
-    <option value="n1">+598</option>
-    <option value="n2">+34</option>
-    <option value="n3">+39</option>
-    <option value="n4">+33</option>
-    <option value="n5">+44</option>
-
+    <br> sexo:
+    <br>
+    <br>
+    <input type="" name="" id="">
+    Masculino: <input type="checkbox" name="tel[]" ;>
+    Femenino: <input type="checkbox" name="tel[]" ;>
+    No binario: <input type="checkbox" name="tel[]" ;>
+    <br>
+    <br>
+    <label for="">Uruguay: </label>
+    <input type="radio" name="pais" id="1">
+    <label for="">España: </label>
+    <input type="radio" name="pais" id="2">
+    <label for="">Italia: </label>
+    <input type="radio" name="pais" id="3">
+    <label for="">Francia: </label>
+    <input type="radio" name="pais" id="4">
+    <label for="">Inglaterra: </label>
+    <input type="radio" name="pais" id="5">
+    <select name="genero" id="nums">
+      <option value="1" value="1">mas</option>
+      <option value="2" value="2">femeni</option>
+      <option value="3" value="3">3</option>
+    </select>
+    < </form>
 </body>
 
 </html>
