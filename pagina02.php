@@ -32,29 +32,35 @@
       <input type="radio" name="chil1" id="chil">
       <label for="">Colombia: </label>
       <input type="radio" name="colo1" id="colo">
+
+      <br><br>
+
+      <label for="">Masculino: </label>
+      <input type="checkbox" name="Masculino" id="Masculino">
+      <label for="">Femenino: </label>
+      <input type="checkbox" name="Femenino" id="Femenino">
+      <label for="">Otro: </label>
+      <input type="checkbox" name="Otro" id="Otro">
+
+      <br><br>
+
+      Numero:
+      <select name="num" id="num">
+        <option value="+598">+598</option>
+        <option value="+54">+54</option>
+        <option value="+595">+595</option>
+        <option value="+541">+541</option>
+        <option value="+493">+493</option>
+      </select>
+
     </form>
     <br>
 
 
-    <form name="sexo">Sexo:
-      <label for="">Masculino: </label>
-      <input type="checkbox" name="m1" id="m">
-      <label for="">Femenino: </label>
-      <input type="checkbox" name="f1" id="f">
-      <label for="">Otro: </label>
-      <input type="checkbox" name="o1" id="o">
 
-    </form>
   </form>
   <br>
-  Numero:
-  <select name="nm" id="num">
-    <option value="n1">+598</option>
-    <option value="n2">+54</option>
-    <option value="n3">+595</option>
-    <option value="n4">+54</option>
-    <option value="n5">+57</option>
-  </select>
+
 </body>
 
 </html>
